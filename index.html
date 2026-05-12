@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green-Earth</title>
+
     <link rel="stylesheet" href="styles/style.css">
+    <!-- favicon -->
+
+    <link rel="shortcut icon" href="assets/hero-leaf1.png" type="image/x-icon">
+
+    <!-- daisyui cdn + tailwindcss cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- inter font cdn -->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+</style>
 </head>
 <body>
-    
+    <!-- NAVBAR SECTION -->
+    <nav class="bg-[#15803D]">
+        
+    <div class="navbar bg-base-100  bg-transparent p-0 w-11/12 mx-auto py-3">
+    <div class="navbar-start">
+
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="mr-2 btn-ghost md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content  rounded-box z-1 mt-5 w-32 md:w-52 space-y-2 ">
+       <li><a class="hover:text-[#FACC15] hover:bg-[#15803D] bg-[#FACC15] rounded-4xl text-[#15803D]">About</a></li>
+      <li><a class="hover:text-[#FACC15] hover:bg-[#15803D] bg-[#FACC15] rounded-4xl text-[#15803D]">Gallery</a></li>
+      <li><a class="hover:text-[#FACC15] hover:bg-[#15803D] bg-[#FACC15] rounded-4xl text-[#15803D]"  >Plant a Tree</a></li>
+      </ul>
+    </div>
+
+    <a class="btn-ghost text-xl text-[#FFFFFF] p-0 font-bold">Green Earth</a>
+    </div>
+  <div class="navbar-center hidden md:flex">
+
+    <ul class="menu menu-horizontal px-1 text-[#FFFFFF]">
+      <li><a class="hover:text-[#FACC15] hover:bg-[#15803D]">About</a></li>
+      <li><a class="hover:text-[#FACC15] hover:bg-[#15803D]">Gallery</a></li>
+      <li><a class="hover:text-[#FACC15] hover:bg-[#15803D]"  >Plant a Tree</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="btn bg-[#FACC15] rounded-4xl text-[#15803D] hover:text-[#FACC15] hover:bg-[#15803D]">Plant a Tree</a>
+  </div>
+</div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="flex flex-col sm:flex-row justify-between items-center bg-[#CFF0DC] gap-3 md:gap-0 ">
+
+        <div class="w-50 sm:w-auto">
+            <img src="assets/hero-leaf1.png" alt="green-leaf">
+        </div>
+
+        <div class="text-center sm:py-4 lg:py-0 px-4 sm:px-0 space-y-4">
+            <h1 class="text-3xl md:text-4xl  font-bold">Plant a Tree, Grow a Future</h1>
+            <p class="text-[#1F2937]">Join our mission to plant 1 million trees and make the Earth greener for future
+            generations.
+            </p>
+            <div>
+            <a class="btn bg-[#FACC15] rounded-4xl text-[#15803D] hover:text-[#FACC15] hover:bg-[#15803D]">Get Involved</a>
+            </div>
+        </div>
+        <div class="w-50 sm:w-auto">
+            <img src="assets/hero-leaf2.png" alt="green-leaf">
+        </div>
+
+    </section> 
 </body>
 </html>
