@@ -3,4 +3,19 @@
   font-family: "Inter", sans-serif;
 }
 
+.specialAlltrees{
+  background-color: transparent;
+  color: black;
+}
+
+.all-tree:hover{
+  background-color: #15803D;
+  color: white;
+}
+
+.active{
+  background-color: #15803D;
+  color: #FACC15;
+}
+
 @import "tailwindcss"
