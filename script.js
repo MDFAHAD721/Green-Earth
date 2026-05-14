@@ -214,7 +214,7 @@ const showPlants = (plants) => {
               <p>৳${plant.price}</p>
             </div>
 
-            <button onclick="loadCart(${plant.id})" class="btn btn-wide rounded-3xl text-[#DCFCE7] bg-[#15803D] hover:bg-[#FACC15] hover:text-[#15803D]">Add to Cart</button>
+            <button onclick="loadCart(${plant.id})" class="btn w-full rounded-3xl text-[#DCFCE7] bg-[#15803D] hover:bg-[#FACC15] hover:text-[#15803D]">Add to Cart</button>
             
             </div>  
 
