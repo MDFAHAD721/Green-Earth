@@ -3,6 +3,10 @@
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 .specialAlltrees{
   background-color: transparent;
   color: black;
@@ -17,5 +21,9 @@
   background-color: #15803D;
   color: #FACC15;
 }
+#spinner {
+  transition: opacity 0.2s ease;
+}
+
 
 @import "tailwindcss"
